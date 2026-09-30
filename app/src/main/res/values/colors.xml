@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ken_primary">#1E3A8A</color>
+    <color name="ken_primary_dark">#0F255E</color>
+    <color name="ken_accent">#F59E0B</color>
+    <color name="ken_bg">#F7F8FC</color>
+    <color name="ken_text">#111827</color>
+    <color name="ken_white">#FFFFFF</color>
+</resources>

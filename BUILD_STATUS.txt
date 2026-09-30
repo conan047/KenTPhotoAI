@@ -1,0 +1,22 @@
+KenPhoto AI v1.2.0 - BUILD STATUS
+================================
+
+DA KIEM TRA TRONG MOI TRUONG HIEN TAI:
+- CommandParser smoke tests: PASS
+- Toan bo Java source compile voi Android API stubs: PASS
+- AndroidManifest.xml va toan bo resource XML parse: PASS
+- Project static checks: PASS
+- AGP: 9.3.0
+- Gradle: 9.5.0
+- compileSdk/targetSdk: 36
+
+CHUA THE THUC HIEN TRONG MOI TRUONG HIEN TAI:
+- assembleDebug bang Android SDK that
+- cai APK len dien thoai that
+
+LY DO:
+Moi truong hien tai khong co Android SDK Platform 36 / Build Tools 36.0.0 va khong co ket noi binary-download de cai them SDK.
+
+HAI DUONG BUILD DA CHUAN BI:
+1) Windows: chay BUILD_APK_WINDOWS.bat sau khi cai Android Studio + Platform 36 + Build Tools 36.0.0.
+2) GitHub: workflow .github/workflows/build-apk.yml build va upload artifact KenPhotoAI-v1.2-debug.apk.
